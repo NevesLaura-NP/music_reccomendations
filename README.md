@@ -5,9 +5,11 @@ This is an unsupervised learning task that aims to come up with an algorithm tha
 ## Report
 
 The EDA had a wealth of insightful information. It can be stated that the data set contained an unequal distribution of genres, with Pop being the most prevalent and Hip Hop the least. Some genres had dominating emotion scores, such country music, which had a predominant sadness score. An other intriguing observation was the shift in some Emotion ratings over the years; romantic feelings saw a decline in ratings as the decades went by, while scores for violent emotions increased.
-(images/VSOT.png) (images/RSOT.png)
+![alt text](/images/VSOT.png) ![alt text](/images/RSOT.png)
+
 Other than the fact that Age and Release Date have a perfect negative connection and that Obscene Score and Song Length have a positive correlation of 0.44, there weren't many correlations between the variables. Furthermore, there is a marginally stronger negative association (-0.27) between the Sadness score and the Obscene score.
-(images/CH.png)
+![alt text](/images/CH.png)
+
 I was able to determine through EDA that most of the columns would have to be retained because they provided a variety of insightful data regarding the characterization and grouping of the songs. Since the lyrics and track names were idiosyncratic and didn't provide any information for the EDA or help group the music, I dropped them.
 
 
